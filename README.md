@@ -16,6 +16,9 @@ pip install -r requirements.txt
 
 ## Usage
 1) Setup your "app" on Yahoo: https://developer.yahoo.com/apps/
+
+    ⚠ **Important** - set Redirect URI(s) as follows:   `https://127.0.0.1:5000/logon`
+
 2) Set your environment variables
     ```
     export CLIENT_ID=<Your Yahoo Client ID>
@@ -23,7 +26,11 @@ pip install -r requirements.txt
     ```
 3) Start app
     ```
-    export FLASK_APP=hello
+    export FLASK_APP=yahoo-api
     python -m flask run --cert=adhoc
     ```
 4) Open in browser [https://127.0.0.1:5000/](https://127.0.0.1:5000/)
+
+5) Accept the warnings about the ad hoc certificate and proceed
+
+The API Data should hopefully be displayed both in your browser and in the terminal

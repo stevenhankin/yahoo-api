@@ -9,7 +9,7 @@ client_id = os.getenv('CLIENT_ID')
 client_secret = os.environ.get('CLIENT_SECRET')
 
 @app.route("/")
-def hello_world():
+def start_page():
     """
     The root page just redirects to Yahoo to get the access code
     and will return to the /logon route
