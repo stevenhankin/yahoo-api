@@ -34,4 +34,4 @@ def logon():
   # And show the results in the server terminal
   print(y.json())
   # ...and in the browser
-  return f"<p>Access code: {code}</p><p>token: {access_token}</p><p>Data: {y.json()}</p>"
+  return f"<h5>Access code: {code}</h5><h5>token: {access_token}</h5><h4>Data: {y.json()}</h4>"

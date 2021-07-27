@@ -1,10 +1,28 @@
 # Yahoo API
 
+
 Simple Python application demonstrating how to connect to the Yahoo Fantasy Sport API using Yahoo OAuth
+
+---
+
+![](https://media.giphy.com/media/UmtyHb5JfCH3WfTsEr/giphy.gif)
+
+---
+
+## Contents
+- [Yahoo API](#yahoo-api)
+  - [Contents](#contents)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
+
+---
 
 ## Requirements
 
 * Python 3
+
+---
 
 ## Installation
 
@@ -13,6 +31,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+---
 
 ## Usage
 1) Setup your "app" on Yahoo: https://developer.yahoo.com/apps/
