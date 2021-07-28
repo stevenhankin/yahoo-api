@@ -29,6 +29,7 @@ Simple Python application demonstrating how to connect to the Yahoo Fantasy Spor
 ```
 python3 -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
